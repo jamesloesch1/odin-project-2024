@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+.box.one {
+    border: 1px solid purple;
+    padding: 20px yellow;
+    margin: 20px;
+    inline-size: 200px;
+    block-size: 200px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 40px;
+}
+
+.box.two {
+    border: 1px solid brown;
+    padding: 20px yellow;
+    margin: 20px;
+    inline-size: 250px;
+    block-size: 300px;
+    text-align: center;
+}
+
+.box.three {
+    border: 1px solid blue;
+    padding: 20px;
+    margin: 20px;
+    inline-size: 250px;
+    block-size: 300px;
+    text-align: center;
+}
+
+.container {
+    border: 1px dotted red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 40px;
+}
+
+span {
+    border: 1px solid blue;
+    background-color: yellow;
+    padding: 10px;
+    margin: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.links-list a {
+    background-color: rgb(179 57 81);
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    margin: 20px;
+    display: inline-block;
+}
+
+.links-list a:hover {
+    background-color: rgb(66 28 40);
+    color: #fff;
+}

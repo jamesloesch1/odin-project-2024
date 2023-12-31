@@ -1,0 +1,42 @@
+* {
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: "Helvetica", serif;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+
+.box.one {
+    background-color: red;
+    padding: 20px;
+    border: 20px solid #9b51e0;
+    margin: 60px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    color: white;
+}
+
+.box.two {
+    background-color: blue;
+    border: 20px solid #27ae60;
+    padding: 20px;
+    margin: 60px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+span {
+    display: block;
+}
